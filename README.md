@@ -14,7 +14,7 @@ The plugin adds one skill (`vn-tender-research`) and one remote MCP server:
 | Component | What it does |
 |---|---|
 | `skills/vn-tender-research` | Tells Claude how to choose the right mode, write Vietnamese keywords, confirm costs and read the results |
-| MCP server `apify-vn-procurement` → `https://mcp.apify.com?tools=donerightlabs/tender-intelligence` | Apify's hosted MCP server, limited to the Actor [`donerightlabs/tender-intelligence`](https://apify.com/donerightlabs/tender-intelligence). Apify also publishes this server as a connector in the Claude directory |
+| MCP server `vn-procurement-data` → `https://mcp.apify.com?tools=donerightlabs/tender-intelligence` | Apify's hosted MCP server, limited to the Actor [`donerightlabs/tender-intelligence`](https://apify.com/donerightlabs/tender-intelligence). Apify also publishes this server as a connector in the Claude directory |
 
 The plugin itself contains no code, stores no data and sends nothing anywhere except through this MCP server.
 
