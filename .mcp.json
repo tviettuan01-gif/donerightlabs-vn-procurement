@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "apify-vn-procurement": {
+    "vn-procurement-data": {
       "type": "http",
       "url": "https://mcp.apify.com?tools=donerightlabs/tender-intelligence"
     }
