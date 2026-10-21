@@ -5,7 +5,7 @@ description: Find and summarize Vietnamese public procurement data (procurement 
 
 # Vietnam tender research
 
-This skill uses the Apify Actor `donerightlabs/tender-intelligence` through the plugin's MCP server (`apify-vn-procurement`, hosted by Apify at `mcp.apify.com`). The tool for this Actor has `tender-intelligence` in its name.
+This skill uses the Apify Actor `donerightlabs/tender-intelligence` through the plugin's MCP server (`vn-procurement-data`, hosted by Apify at `mcp.apify.com`). The tool for this Actor has `tender-intelligence` in its name.
 
 ## Costs: always confirm before running
 The Actor is **pay-per-event**, and the charges go to **the user's own Apify account**. Before every run, show the estimated cost and ask the user to confirm. Never start a paid run without that confirmation. The Actor's Pricing tab is the source of truth; at the time of writing the rates were:
