@@ -1,6 +1,6 @@
 # Vietnam Procurement Monitor (donerightlabs)
 
-Search **Vietnam's national e-procurement system** (VNEPS, muasamcong.mpi.gov.vn) directly from Claude. Ask in English or Vietnamese, and Claude finds:
+Search **Vietnam's national e-procurement system** (VNEPS, muasamcong.mof.gov.vn) directly from Claude. Ask in English or Vietnamese, and Claude finds:
 
 - **Procurement plans** (KHLCNT): upcoming purchases, published before the tender notice;
 - **Open tender notices**: package name, closing date, location, field;
@@ -22,9 +22,10 @@ The plugin itself contains no code, stores no data and sends nothing anywhere ex
 - An **Apify account**. You sign in with Apify's own login (OAuth) the first time Claude connects. The plugin never sees your credentials.
 - The Actor is **pay-per-event**, and charges go to **your Apify account**. The skill asks Claude to show the estimated cost and get your confirmation before every run. The [Pricing tab](https://apify.com/donerightlabs/tender-intelligence) is the source of truth; at the time of writing the rates were:
   - $0.05 per run;
-  - $0.50 per keyword (notices, plans or award results by keyword);
-  - $0.50 per run for award results by province and date range (no keyword);
-  - $0.05 per package that actually has a published award result.
+  - $0.15 per keyword (notices, plans or award results by keyword);
+  - $0.15 per run for award results by province and date range (no keyword);
+  - $0.03 per package whose award result is read in full.
+  - Charges apply only after a search succeeds: a run that ends in a technical error is not charged for the search (Apify's automatic start event, about $0.0002, still applies).
 
 ## Example prompts
 - "Find open Vietnamese government tenders for medical equipment and list the three closing soonest."
@@ -42,7 +43,7 @@ The plugin itself contains no code, stores no data and sends nothing anywhere ex
 Report issues on the Actor's Issues tab: https://apify.com/donerightlabs/tender-intelligence/issues
 
 ## Disclaimer
-This is an independent tool by donerightlabs. It is not affiliated with or endorsed by any Vietnamese government agency or by Apify. Results are information, not legal or bidding advice. Check the official notice on muasamcong.mpi.gov.vn before acting.
+This is an independent tool by donerightlabs. It is not affiliated with or endorsed by any Vietnamese government agency or by Apify. Results are information, not legal or bidding advice. Check the official notice on muasamcong.mof.gov.vn before acting.
 
 ## License
 MIT. See [LICENSE](LICENSE).
