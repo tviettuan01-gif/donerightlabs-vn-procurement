@@ -19,5 +19,8 @@
     "public-sector",
     "bidding"
   ],
-  "privacyPolicyUrl": "https://donerightlabs.tviettuan01.workers.dev/chinh-sach"
+  "privacyPolicyUrl": "https://donerightlabs.tviettuan01.workers.dev/chinh-sach",
+  "documentationUrl": "https://apify.com/donerightlabs/tender-intelligence",
+  "supportUrl": "https://apify.com/donerightlabs/tender-intelligence/issues",
+  "termsOfServiceUrl": "https://donerightlabs.tviettuan01.workers.dev/chinh-sach"
 }
