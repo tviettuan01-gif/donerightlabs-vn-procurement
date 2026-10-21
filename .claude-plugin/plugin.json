@@ -10,5 +10,14 @@
   "homepage": "https://apify.com/donerightlabs/tender-intelligence",
   "repository": "https://github.com/tviettuan01-gif/donerightlabs-vn-procurement",
   "license": "MIT",
-  "keywords": ["vietnam", "procurement", "tenders", "vneps", "muasamcong", "public-sector", "bidding"]
+  "keywords": [
+    "vietnam",
+    "procurement",
+    "tenders",
+    "vneps",
+    "muasamcong",
+    "public-sector",
+    "bidding"
+  ],
+  "privacyPolicyUrl": "https://donerightlabs.tviettuan01.workers.dev/chinh-sach"
 }
